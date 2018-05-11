@@ -1,0 +1,30 @@
+{
+    "configs": [
+        {
+            "server": "hk1-sta92.1dcjl.pw",
+            "server_port": 22422,
+            "local_port": 1080,
+            "password": "mfkDpzvqngjE",
+            "method": "chacha20-ietf-poly1305"
+        },
+        {
+            "server": "us2-sta92.1dcjl.pw",
+            "server_port": 22422,
+            "local_port": 1080,
+            "password": "mfkDpzvqngjE",
+            "method": "chacha20-ietf-poly1305"
+        },
+        {
+            "server": "jp1-sta92.1dcjl.pw",
+            "server_port": 22422,
+            "local_port": 1080,
+            "password": "mfkDpzvqngjE",
+            "method": "chacha20-ietf-poly1305"
+        }
+    ],
+    "localPort": 1080,
+    "index": 0,
+    "global": false,
+    "enabled": true,
+    "isDefault": false
+}
