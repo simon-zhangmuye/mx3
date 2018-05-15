@@ -95,8 +95,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'mxonline3',
-        'USER': 'root',
-        'PASSWORD': 'admin123',
+        'USER': '',
+        'PASSWORD': '',
         'HOST': '127.0.0.1'
     }
 }
@@ -152,10 +152,10 @@ AUTHENTICATION_BACKENDS = (
 
 EMAIL_HOST = "smtp.sina.com"
 EMAIL_PORT = 25
-EMAIL_HOST_USER = "mxonline_edu@sina.com"
-EMAIL_HOST_PASSWORD = "zzz123123"
+EMAIL_HOST_USER = ""
+EMAIL_HOST_PASSWORD = ""
 EMAIL_USE_TLS = False
-EMAIL_FROM = "mxonline_edu@sina.com"
+EMAIL_FROM = ""
 
 # 设置我们上传文件的路径
 
